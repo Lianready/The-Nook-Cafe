@@ -59,12 +59,16 @@ The-Nook-Cafe/
 ## Contributing
 - Contributing, issues, and feature requests are welcome!
 
+
 ## License
 -This project is open source and available for any purposes. Feel free to explore, fork, and adapt the code.
 
 ## Contact
 - Lianready - [@Lianready](https://github.com/Lianready)
-**Project Link** - [Live Preview](taupe-genie-a84188.netlify.app)
+- Project Link** - [Live Preview](https://taupe-genie-a84188.netlify.app/))
   [GitHub link](https://github.com/Lianready/The-Nook-Cafe.git)
 
 ## 🔗 Links
+
+- Live demo: [Live demo](https://taupe-genie-a84188.netlify.app/)
+- 
