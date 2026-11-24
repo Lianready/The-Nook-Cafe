@@ -63,7 +63,7 @@ The-Nook-Cafe/
 -This project is open source and available for any purposes. Feel free to explore, fork, and adapt the code.
 
 ## Contact
-- Lianready** - [@Lianready](https://github.com/Lianready)
+- Lianready - [@Lianready](https://github.com/Lianready)
 **Project Link** - []()
 
 ## 🔗 Links
