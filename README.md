@@ -65,5 +65,6 @@ The-Nook-Cafe/
 ## Contact
 - Lianready - [@Lianready](https://github.com/Lianready)
 **Project Link** - [Live Preview](taupe-genie-a84188.netlify.app)
+  [GitHub link](https://github.com/Lianready/The-Nook-Cafe.git)
 
 ## 🔗 Links
