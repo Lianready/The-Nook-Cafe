@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Nook Cafe | Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+  <header>
+  <nav class="navbar">
+    <a href="index.html" aria-current="page">Home</a>
+
+    
+    <div class="menu-dropdown">
+      <button type="button" class="menu-trigger" id="menu-btn" aria-expanded="false">
+        Menu <span class="arrow">⌄</span>
+      </button>
+      <div class="submenu-row" id="submenu-row">
+        <a href="menu.html#coffee">Coffee</a>
+        <a href="menu.html#non-coffee">Non-Coffee</a>
+        <a href="menu.html#desserts">Desserts</a>
+      </div>
+    </div>
+
+    <a href="reservations.html">Reservations</a>
+  </nav>
+
+  <a href="index.html" class="brand-title">The Nook Cafe</a>
+  <a href="index.html" class="brand-title">The Nook Cafe</a>
+
+      <nav class="nav-right">
+        <a href="online.html">Shop</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    
+  </header>
+  <main>
+  <h1>Make A Reservation</h1>
+  <div class="booking-bar">
+  <form class="booking-bar" onsubmit="event.preventDefault(); alert('Checking tables at The Nook Cafe...');">
+  <div class="input-group">
+  <label for="res-date">Date</label>
+  <input type="date" id="res-date" value="11-17-2026" required>
+  </div>
+  <div class="input-group">
+  <label for="res-guests">Party Size</label>
+  <select id="res-guests">
+  <option value="1">1 Guest</option>
+  <option value="2">2 Guest</option>
+  <option value="3">3 Guest</option>
+  <option value="4">4 Guest</option>
+  <option value="5">5 Guest</option>
+  <option value="6">6 Guest</option>
+  <option value="7">7 Guest</option>
+  <option value="8">8 Guest</option>
+  <option value="9">9 Guest</option>
+  <option value="10">10 Guest</option>
+  </select>
+  </div>
+  <button type="submit" class="btn-submit">Find a Table</button>
+  </form>
+  <p class="booking-note">Walk-ins are always welcome at our Cafe.</p>
+  </div>
+  </main>
+<div class="modal-overlay" id="modal">
+<div class="modal-box">
+<button type="button" class="close-btn" id="closeBtn">&times;</button>
+<span class="badge">Table Ready for Reservation</span>
+<h2>Complete your booking</h2>
+<p class="booking-summary" id="summaryText">November 20, 2026 , 1 guests</p>
+<form id="confirmForm">
+<div class="form-group">
+<label for="timeSlot">Choose an Available Time</label>
+<select id="timeSlot">
+<option>8:00 AM</option>
+<option>9:00 AM</option>
+<option>10:00 AM</option>
+<option>11:00 AM</option>
+<option>12:00 PM</option>
+<option>1:00 PM</option>
+</select>
+</div>
+<div class="form-group">
+<label for="name">Full Name</label>
+<input type="text" id="name" placeholder="Your Name" required>
+</div>
+<div class="form-group">
+<label for="email">Email Address</label>
+<input type="email" id="email" placeholder="you@example.com" required>
+</div>
+
+ <button type="submit" class="btn-primary">Confirm Reservations</button>
+</form>
+</div>
+</div>
+    

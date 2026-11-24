@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>The Nook Cafe | Menu </title>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width" />
+    
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+    </head>
+  <body>
+  <header>
+  <nav class="navbar">
+  <a href="index.html">Home</a>
+  <div class="menu-dropdown">
+  <button type="button" class="menu-trigger" id="menu-btn" aria-expanded="false">
+  Menu <span class="arrow">⌄</span>
+  </button>
+
+  <div class="submenu-row" id="submenu-row">
+    <a href="#coffee" data-category="coffee">Coffee</a>
+    <a href="#non-coffee" data-category="non-coffee">Non-Coffee</a>
+    <a href="#desserts" data-category="desserts">Desserts</a>
+  </div>
+  </div>
+  <a href="reservations.html">Reservations</a>
+      </nav>
+
+      <a href="index.html" class="brand-title">The Nook Cafe</a>
+      <nav class="nav-right">
+      <a href="online.html">Shop</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+ </header>
+ 
+      <main class="contact-container-info">
+        <section class="contact-info">
+      <div class="contact-1">
+      <h1>CONTACT US</h1>
+      <h2>Get In Touch</h2>
+      <article>
+      <p>Hearing from our regulars and first-time guests always brings us joy! Have a question about the menu, hours, or an upcoming visit? Send us a message and we'll get back to you soon.</p>
+      </article>
+    </div>
+  
+     <div>
+    <strong>Location:</strong><br>
+     150 Mulberry Street <br>
+     New York, NY, 10012
+     </div>
+     </address>
+
+    <div>
+    <p><strong>Phone Number:</strong>
+    <a href="tel:5553230555">(555)-323-0555</a>
+    </p>
+    </div>
+  </section>
+
+  <section class="contact-form">
+  <h2>Your Details</h2>
+  <p>Let us know how to get back to you.</p>
+  
+  <form class="contact-form">
+  <label for="name">Name</label>
+  <input type="text" id="name" placeholder="your name" required>
+  
+  <label for="email-address">Email Address</label>
+  <input type="email" id="email" placeholder="email@gmail.com" required>
+
+  <label for="subject">Subject</label>
+  <input type="text" id="subject" placeholder="subject" required>
+
+  <label for="questions">Comments/Questions</label>
+  <input type="text" id="questions" placeholder="Questions" rows="4" required>
+
+  <button type="submit">Submit</button>
+  </form>
+  </section>
+      </main>
+  </body>
+</html>
+
+
+
